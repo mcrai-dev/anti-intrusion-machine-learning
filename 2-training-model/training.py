@@ -34,5 +34,3 @@ model.fit(df)
 # Détection des anomalies
 anomalies = model.predict(df)
 print("Anomalies:", anomalies)
-
-# Les prédictions sont -1 pour les anomalies et 1 pour les points normaux
